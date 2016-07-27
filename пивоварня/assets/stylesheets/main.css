@@ -1,0 +1,220 @@
+body {
+	/*color: white; */
+	margin-left: 50px;
+	background-image: url("/пивоварня/img/7.jpg");
+}
+.logo {
+/*position: absolute; */
+float: left;
+}
+
+.head {
+	/*color: purple;*/
+	text-align: center;
+}
+
+.about_us {
+/*	background-color: aqua;*/
+}
+
+.place {
+/*	background-color: pink;*/
+}
+
+.guests {
+/*	background-color: yellow;*/
+}
+
+
+.footer {
+ 	/*background-color: black;
+	color: white;*/
+	text-align: center;
+}
+
+.special_text {
+	color: red;
+	font-weight: bold;
+}
+ /*form {
+margin: 10px, 10px, 10px, 10px;
+height: 150px;
+border: 1px green;
+
+}
+
+*/ 
+
+h3.opening {
+	color: red
+}
+.quality {
+	
+}
+
+h4.example {
+	float: right;
+	font: 15px;
+	color: green;
+	font-weight: solid;
+	font-style: italic;
+	background: yellow;
+
+}
+section.download {
+	margin-left: 400px;
+	margin-right: auto;
+}
+nav {
+	 /*background-image: url("/пивоварня/img/8.jpg");*/
+	height: 100px;
+	margin-left: 100px;
+}
+
+.about_us {
+	/*background-image: url("/пивоварня/img/8.jpg");*/
+}
+
+.go_top {
+	text-align: center;
+}
+.place  {
+	/*background-image: url("/пивоварня/img/8.jpg");*/
+}
+
+/*  ********** from other sources - it is not mine  ************* */
+/* === Remove input autofocus webkit === */
+*:focus {outline: none;}
+
+/* === Øðèôòû äëÿ ôîðìû è îáùàÿ øèðèíà === */
+body {font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;}
+.form h2, .form label {font-family:Georgia, Times, "Times New Roman", serif;}
+.form_hint, .required_notification {font-size: 11px;}
+
+.form {
+		width:700px;
+		height: auto;
+	}
+
+/* === Øèðèíà ôîðìû === */
+.form p {
+    	width:650px;
+	margin:7px 10px 7px 10px;
+	padding:0px;
+}
+
+/* === Ðàçìåð è ðàñïîëîæåíèå áëîêîâ === */
+.form label {
+	width:150px;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+}
+.form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+.form textarea {padding:8px; width:300px;}
+.form button {margin-left:156px;}
+
+	/* Öâåòà è ýôôåêòû */
+	.form input, .form textarea { 
+		border:1px solid #aaa;
+		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+		border-radius:2px;
+		padding-right:30px;
+		-moz-transition: padding .25s; 
+		-webkit-transition: padding .25s; 
+		-o-transition: padding .25s;
+		transition: padding .25s;
+	}
+	.form input:focus, .form textarea:focus {
+		background: #fff; 
+		border:1px solid #555; 
+		box-shadow: 0 0 3px #aaa; 
+		padding-right:70px;
+	}
+
+/* === HTML5  === */	
+.form input:required, .form textarea:required {
+	background: #fff no-repeat 98% center;
+}
+.form input:required:valid, .form textarea:required:valid {
+	background: #fff no-repeat 98% center;
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.form input:focus:invalid, .form textarea:focus:invalid {
+	background: #fff no-repeat 98% center;
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Ñòèëè ïîäñêàçîê === */
+.form_hint {
+	background: #d45252;
+	border-radius: 3px 3px 3px 3px;
+	color: white;
+	margin-left:8px;
+	padding: 1px 6px;
+	z-index: 999; /* ïîäñêàçêè ïîâåðõ âñåõ ýëåìåíòîâ */
+	position: absolute; /* ïðàâèëüíîå îòîáðàæåíèå, åñëè ïîäñêàçêà â 2 ñòðîêè */
+	display: none;
+}
+.form_hint::before {
+	content: "\25C0";
+	color:#d45252;
+	position: absolute;
+	top:1px;
+	left:-6px;
+}
+.form input:focus + .form_hint {display: inline;}
+.form input:required:valid + .form_hint {background: #28921f;}
+.form input:required:valid + .form_hint::before {color:#28921f;}
+	
+/* === Îôîðìëåíèå êíîïêè === */
+button.submit {
+	background-color: #68b12f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+	background: -webkit-linear-gradient(top, #68b12f, #50911e);
+	background: -moz-linear-gradient(top, #68b12f, #50911e);
+	background: -ms-linear-gradient(top, #68b12f, #50911e);
+	background: -o-linear-gradient(top, #68b12f, #50911e);
+	background: linear-gradient(top, #68b12f, #50911e);
+	border: 1px solid #509111;
+	border-bottom: 1px solid #5b992b;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	box-shadow: inset 0 1px 0 0 #9fd574;
+	-webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+	-moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+	-o-box-shadow: 0 1px 0 0 #9fd574 inset;
+	color: white;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #396715;
+/*	width: auto; */
+}
+button.submit:hover {
+	opacity:.85;
+	cursor: pointer; 
+}
+button.submit:active {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset; 
+	-webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+	-moz-box-shadow: 0 0 10px 5px #356b0b inset;
+	-ms-box-shadow: 0 0 10px 5px #356b0b inset;
+	-o-box-shadow: 0 0 10px 5px #356b0b inset;
+	
+}
+section.download {
+	background-image: 
+}
